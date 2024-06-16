@@ -1,6 +1,3 @@
-
-{% docs __overview__ %}
-
 ### README do Projeto DBT-Core
 
 # Projeto DBT-Core para Data Warehouse de Commodities
@@ -156,5 +153,3 @@ Este model é responsável por tratar e formatar os dados de movimentações das
 #### dm_commodities.sql
 
 Este model integra os dados tratados das commodities e das movimentações, criando um modelo de dados final para análise. Ele calcula métricas e agrega os dados para facilitar a análise no dashboard.
-
-{% enddocs %}
