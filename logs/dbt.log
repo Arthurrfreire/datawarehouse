@@ -1,0 +1,30 @@
+[0m23:25:57.556348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B5BA96C740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B5BB39F770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B5BB39E810>]}
+
+
+============================== 23:25:57.561348 | 033507e2-ca91-4514-8cf2-3a0356fb3163 ==============================
+[0m23:25:57.561348 [info ] [MainThread]: Running with dbt=1.8.2
+[0m23:25:57.561348 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\arthu\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:25:57.571348 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/arthu/.dbt')}
+[0m23:25:57.571348 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m23:26:32.918760 [debug] [MainThread]: Starter project path: C:\Users\arthu\data-warehouse\.venv\Lib\site-packages\dbt\include\starter_project
+[0m23:26:32.974622 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:26:32.974622 [info ] [MainThread]: Setting up your profile.
+[0m23:28:31.492424 [info ] [MainThread]: Profile datawarehouse written to C:\Users\arthu\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:28:31.492424 [debug] [MainThread]: Command `dbt init` succeeded at 23:28:31.492424 after 154.01 seconds
+[0m23:28:31.492424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B5BAB9E060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B5B7D9C380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B5BA9E6F60>]}
+[0m23:28:31.492424 [debug] [MainThread]: Flushing usage events
